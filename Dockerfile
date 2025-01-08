@@ -9,7 +9,7 @@ RUN apk add --no-cache graphicsmagick tzdata && \
 
 WORKDIR /data
 
-EXPOSE 5678
+EXPOSE $PORT
 
 ENV N8N_USER_ID=root
 
